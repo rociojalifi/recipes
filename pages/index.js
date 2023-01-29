@@ -3,8 +3,6 @@ import { Inter } from "@next/font/google";
 import Header from "../components/header";
 import IngredientList from "../components/ingredient-list";
 import Footer from "../components/footer";
-import Calories from "../components/calories";
-import Specifications from "../components/specifications";
 import RequestButton from "../components/request-button";
 import Recipe from "../components/recipe";
 
@@ -24,8 +22,6 @@ export default function Home() {
         <Header />
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <IngredientList />
-          <Calories />
-          <Specifications />
           <RequestButton />
           <Recipe />
         </div>
